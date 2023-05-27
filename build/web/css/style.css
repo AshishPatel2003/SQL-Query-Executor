@@ -1,0 +1,100 @@
+.gradient-color-green-blue {
+  font-weight: 900;
+  background: -webkit-linear-gradient(145deg, rgb(100, 193, 223), rgb(69, 225, 69), rgb(202, 225, 69));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-color-blue-green {
+  font-weight: 900;
+  background: -webkit-linear-gradient(145deg, rgb(202, 225, 69), rgb(69, 225, 69), rgb(100, 193, 223));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.add-btn{
+  background: linear-gradient(45deg, rgb(194, 220, 49), rgb(49, 227, 49), rgb(65, 185, 225));
+}
+
+
+.alertbox{
+  position: fixed;
+  top: 10;
+  right: 10;
+}
+
+.alert {
+  position: relative;
+  top: 10;
+  left: 0;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.8;
+  border-radius: 5px;
+  cursor: hand;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.alertCheckbox {
+  display: none;
+}
+
+:checked + .alert {
+  display: none;
+}
+
+.alertText {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+.alertClose {
+  float: right;
+  padding-top: 5px;
+  font-size: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.info {
+  background-color: #EEE;
+  border: 1px solid #DDD;
+  color: #999;
+}
+
+.success {
+  background-color: #EFE;
+  border: 1px solid #DED;
+  color: #9A9;
+}
+
+.notice {
+  background-color: #EFF;
+  border: 1px solid #DEE;
+  color: #9AA;
+}
+
+.warning {
+  background-color: #FDF7DF;
+  border: 1px solid #FEEC6F;
+  color: #C9971C;
+}
+
+.error {
+  background-color: #FEE;
+  border: 1px solid #EDD;
+  color: #A66;
+}
+
+
+.notes-header{
+  border-bottom: 1px solid gray; margin-bottom: 2vh;
+}
